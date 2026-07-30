@@ -68,6 +68,59 @@ Protocolos são as "regras" que definem como os dados trafegam pela rede.
 | Exemplo de uso | HTTP, HTTPS, FTP | Streaming, jogos online |
 
 ## Comandos praticados
-(lista de comandos + o que cada um faz)
+
+### Navegação e arquivos
+
+| Comando | Função |
+|---------|--------|
+| `pwd` | Mostra o diretório (pasta) atual |
+| `ls` | Lista arquivos e pastas do diretório atual |
+| `ls -la` | Lista incluindo arquivos ocultos e detalhes (permissões, tamanho, data) |
+| `cd nome_pasta` | Entra em uma pasta |
+| `cd ..` | Volta um nível na hierarquia de pastas |
+| `mkdir nome_pasta` | Cria uma nova pasta |
+| `touch arquivo.txt` | Cria um arquivo vazio |
+| `cat arquivo.txt` | Mostra o conteúdo de um arquivo |
+| `rm arquivo.txt` | Remove um arquivo |
+| `cp origem destino` | Copia um arquivo |
+| `mv origem destino` | Move ou renomeia um arquivo |
+
+---
+
+### Rede e diagnóstico
+
+| Comando | Função |
+|---------|--------|
+| `ifconfig` ou `ip a` | Mostra as interfaces de rede e endereços IP da máquina |
+| `ping IP_ou_dominio` | Testa se um host está acessível na rede |
+| `whoami` | Mostra o usuário atual logado |
+| `hostname` | Mostra o nome da máquina na rede |
+| `netstat -tuln` | Lista portas abertas e conexões ativas na máquina |
+
+---
+
+### Permissões
+
+| Comando | Função |
+|---------|--------|
+| `chmod +x arquivo` | Torna um arquivo executável |
+| `sudo comando` | Executa um comando com privilégios de administrador |
+
+---
+
+### Exemplo prático
+
+```bash
+# Verificar meu IP na rede
+ip a
+
+# Testar se consigo alcançar outro dispositivo
+ping 192.168.1.1
+
+# Ver o que está rodando/aberto na minha máquina
+netstat -tuln
+```
+
+**Observação:** esses comandos foram praticados no ambiente do TryHackMe / Kali Linux, seguindo os exercícios da sala de Linux Fundamentals.
 
 ## Dificuldades encontradas
