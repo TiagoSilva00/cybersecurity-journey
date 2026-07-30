@@ -123,4 +123,22 @@ netstat -tuln
 
 **Observação:** esses comandos foram praticados no ambiente do TryHackMe / Kali Linux, seguindo os exercícios da sala de Linux Fundamentals.
 
+## Prática — TryHackMe
+
+### 🏆 Sala concluída: Offensive Security Intro
+**Trilha:** Cyber Security 101 → Start Your Cyber Security Journey
+
+**Progresso:** 4/4 tarefas concluídas | 40 pontos ganhos
+
+**O que foi praticado:**
+- Diferença entre segurança **ofensiva** (pensar como atacante) e **defensiva** (proteger sistemas)
+- Uso da ferramenta `dirb` para descobrir páginas ocultas em um site (enumeração de diretórios)
+- Exploração de uma vulnerabilidade real: acesso não autenticado a um painel administrativo (`/bank-transfer`) que permitia manipular saldos bancários
+- Conceito de **"security through obscurity"** — esconder uma URL não é o mesmo que protegê-la; a correção correta é exigir autenticação (login)
+
+**Flag conquistada:** `BANK-HACKED`
+
+**Reflexão:** essa foi minha primeira experiência prática de identificar e explorar uma vulnerabilidade real (mesmo que em ambiente simulado). Ficou claro como falhas simples de autenticação podem expor funcionalidades críticas de um sistema.
+
+---
 ## Dificuldades encontradas
