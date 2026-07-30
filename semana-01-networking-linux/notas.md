@@ -137,6 +137,7 @@ netstat -tuln
 - Conceito de **"security through obscurity"** — esconder uma URL não é o mesmo que protegê-la; a correção correta é exigir autenticação (login)
 
 **Flag conquistada:** `BANK-HACKED`
+<img width="1355" height="648" alt="Prática - TryHackMe Sala Concluída - Offensive Security" src="https://github.com/user-attachments/assets/1e1118a0-975d-4bba-9850-750aa687ed67" />
 
 **Reflexão:** essa foi minha primeira experiência prática de identificar e explorar uma vulnerabilidade real (mesmo que em ambiente simulado). Ficou claro como falhas simples de autenticação podem expor funcionalidades críticas de um sistema.
 
