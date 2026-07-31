@@ -142,4 +142,25 @@ netstat -tuln
 **Reflexão:** essa foi minha primeira experiência prática de identificar e explorar uma vulnerabilidade real (mesmo que em ambiente simulado). Ficou claro como falhas simples de autenticação podem expor funcionalidades críticas de um sistema.
 
 ---
+### 🛡️ Sala concluída: Introduction to Defensive Security
+**Trilha:** Cyber Security 101 → Start Your Cyber Security Journey
+
+**Progresso:** 5/5 tarefas concluídas | 40 pontos ganhos
+
+**O que foi praticado:**
+- Papel de um analista de **SOC (Security Operations Center)** — atuando na defesa de uma organização
+- Identificação de um alerta de segurança: tentativas suspeitas de login (ataque de **brute-force**)
+- **Contenção** do incidente: bloqueio da conta comprometida (`dave.saunders`) antes que o ataque fosse bem-sucedido
+- Registro de **Threat Intelligence** (inteligência de ameaças) sobre o grupo atacante identificado (`ShadowFigures`)
+- Elaboração de um **relatório de incidente** completo, formalizando o ocorrido
+
+**Flag conquistada:** `THM{ACCOUNT-LOCKED}`
+
+<img width="1353" height="647" alt="Prática - Introdução à Segurança Defensiva" src="https://github.com/user-attachments/assets/e235c118-1c9f-4d0e-bbba-aaa39aac0df2" />
+
+
+**Reflexão:** essa sala me mostrou a outra face da segurança — em vez de atacar/explorar, o foco foi identificar, conter e documentar um ataque em andamento. Entendi na prática o ciclo de resposta a incidentes (identificar → conter → investigar → documentar), que é a base do trabalho de um analista SOC/Blue Team.
+
+---
+
 ## Dificuldades encontradas
