@@ -4,7 +4,6 @@
 Entender os conceitos básicos de redes de computadores e praticar comandos essenciais do Linux, usando o TryHackMe como ambiente prático.
 
 ## Tarefas
-## Tarefas
 
 - [x] Completar sala "Intro to Networking" (ou similar) no TryHackMe
 - [x] Completar sala "Linux Fundamentals" no TryHackMe
