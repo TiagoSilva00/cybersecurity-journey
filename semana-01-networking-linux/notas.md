@@ -68,7 +68,7 @@ Protocolos são as "regras" que definem como os dados trafegam pela rede.
 | Conexão | Orientado à conexão | Sem conexão |
 | Exemplo de uso | HTTP, HTTPS, FTP | Streaming, jogos online |
 
-## Comandos praticados
+## Comandos estudados (a praticar)
 
 ### Navegação e arquivos
 
