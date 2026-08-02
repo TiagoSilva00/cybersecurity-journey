@@ -8,7 +8,7 @@
 
 | Certificado | Instituição | Data | Link |
 |-------------|-------------|------|------|
-| Introdução ao Sistema Operacional Linux | DIO (Digital Innovation One) | 12/07/2023 | [Ver certificado](https://hermes.dio.me/certificates/B7FCE6C8.pdf) |
+| Introdução ao Sistema Operacional Linux | DIO (Digital Innovation One) | 12/07/2023 | [Ver certificado](./dio-linux-intro.pdf) |
 | Google IT Support Professional Certificate | Google / Coursera | _(preencher data)_ | _(adicionar link)_ |
 | Certificação ITIL | _(preencher instituição)_ | _(preencher data)_ | _(adicionar link)_ |
 
