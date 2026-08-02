@@ -14,4 +14,4 @@
 
 ---
 
-📌 **Observação:** os arquivos originais dos certificados (PDF) ficam salvos na pasta [`arquivos/`](./arquivos/) deste diretório.
+📌 **Observação:** os arquivos originais dos certificados (PDF) ficam salvos nesta mesma pasta (`certificados/`).
