@@ -71,5 +71,28 @@ Desenvolver habilidades de busca e reconhecimento (OSINT) essenciais em ciberseg
 ![CVSS - Conceitos e exemplo prático](./imagens/search-skills-tarefa04-cvss-conceitos.png)
 *Estudo dos componentes de uma entrada CVE — formato de identificador, fatores de pontuação CVSS (impacto, complexidade, disponibilidade) e exemplo prático de vulnerabilidade em Apache WebPortal, incluindo produtos afetados, referências oficiais (advisory, patch) e identificadores CPE das versões vulneráveis.*
 
+## Tarefa 5 — Documentação Técnica (MAN)
+
+**O que foi praticado até aqui:**
+- Introdução ao conceito de documentação oficial de produtos e ferramentas como fonte mais confiável de informação técnica, superior a tutoriais de terceiros
+- Exploração das Linux Man Pages, sistema de documentação nativo do Linux acessível via `man <comando>`
+- Execução prática do comando `man nc` em ambiente simulado de terminal, navegando pela estrutura padrão de uma man page:
+  - **NAME** — identificação e propósito da ferramenta
+  - **SYNOPSIS** — sintaxe completa de uso, incluindo todas as flags/opções disponíveis (`-i interval`, `-p source_port`, `-w timeout`, `-X proxy_protocol`, entre outras)
+  - **DESCRIPTION** — explicação detalhada da ferramenta `nc` (netcat), incluindo seus casos de uso: conexões TCP/UDP, port scanning, suporte a IPv4/IPv6
+
+**Conceito-chave:** Documentação oficial (como as man pages) é a fonte primária e mais confiável para entender o funcionamento real de uma ferramenta, especialmente durante troubleshooting — deve ser sempre a primeira consulta, não a última, antes de recorrer a tutoriais externos que podem estar desatualizados.
+
+**Evidência:**
+
+![Introdução às Man Pages](./imagens/search-skills-tarefa05-man-pages-intro.png)
+*Introdução ao conceito de documentação técnica oficial (Man Pages do Linux), destacando sua confiabilidade como fonte primária de consulta para troubleshooting e uso correto de ferramentas de linha de comando.*
+
+![Execução prática de man nc](./imagens/search-skills-tarefa05-man-nc-output.png)
+*Execução do comando `man nc` em ambiente prático simulado, exibindo a estrutura padrão de uma man page do Linux: seção NAME (identificação da ferramenta netcat), SYNOPSIS (sintaxe completa com flags disponíveis) e DESCRIPTION (funcionalidades como conexões TCP/UDP e port scanning).*
+
+---
+
 ## Próximas tarefas (em andamento)
-- [ ] Tarefa 5 — Documentação Técnica (MAN)
+- [ ] Tarefa 6 — GitHub
+
