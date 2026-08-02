@@ -21,3 +21,4 @@ fundamentos de redes, Linux, Active Directory, SIEM e laboratórios hands-on via
 ## 📖 Recursos
 
 - [Glossário de Cibersegurança](./glossario.md) — Vocabulário técnico (EN/PT) usado ao longo da jornada
+- [Certificados](./certificados/certificados.md) — certificações obtidas em Cibersegurança e áreas correlatas
