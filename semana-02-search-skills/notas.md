@@ -49,6 +49,27 @@ Desenvolver habilidades de busca e reconhecimento (OSINT) essenciais em ciberseg
 
 ---
 
+## Tarefa 4 — Bancos de Dados de Vulnerabilidades (CVE)
+
+**O que foi praticado:**
+- Exploração do NVD (National Vulnerability Database), mantido pelo NIST, como fonte oficial de consulta de vulnerabilidades catalogadas
+- Leitura e interpretação de uma entrada CVE real (`CVE-2025-55182`), incluindo descrição técnica, datas de publicação/atualização, e organização responsável pela divulgação (CNA)
+- Compreensão do padrão de nomenclatura `CVE-<ANO>-<NÚMERO>`, identificador único usado entre fornecedores, pesquisadores e ferramentas de segurança
+- Interpretação do sistema de pontuação CVSS (Common Vulnerability Scoring System), com os fatores: Impacto, Complexidade e Disponibilidade
+- Leitura do Vector String CVSS, que decompõe a pontuação em métricas técnicas específicas
+- Análise de uma vulnerabilidade crítica real (score 10.0 CRITICAL) em React Server Components — RCE pré-autenticação por desserialização insegura
+- Exploração da seção de Referências de uma CVE (advisories, patches, Exploit-DB, Snyk) e da tabela de produtos afetados
+- Introdução ao conceito de CPE (Common Platform Enumeration)
+
+**Conceito-chave:** O CVE funciona como uma "linguagem comum" entre toda a comunidade de segurança, permitindo que fornecedores, pesquisadores e times de resposta a incidentes se refiram exatamente à mesma vulnerabilidade. O CVSS complementa isso fornecendo critério objetivo de priorização, essencial para times de SOC decidirem o que corrigir primeiro.
+
+**Evidência:**
+
+![NVD - Detalhe da CVE-2025-55182](./imagens/search-skills-tarefa04-nvd-cve-detail.png)
+*Consulta à entrada CVE-2025-55182 no National Vulnerability Database (NIST), evidenciando uma vulnerabilidade crítica (CVSS 10.0) de execução remota de código pré-autenticação em React Server Components, causada por desserialização insegura de payloads HTTP em endpoints de Server Functions.*
+
+![CVSS - Conceitos e exemplo prático](./imagens/search-skills-tarefa04-cvss-conceitos.png)
+*Estudo dos componentes de uma entrada CVE — formato de identificador, fatores de pontuação CVSS (impacto, complexidade, disponibilidade) e exemplo prático de vulnerabilidade em Apache WebPortal, incluindo produtos afetados, referências oficiais (advisory, patch) e identificadores CPE das versões vulneráveis.*
+
 ## Próximas tarefas (em andamento)
-- [ ] Tarefa 4 — Bancos de dados de vulnerabilidades (CVE)
 - [ ] Tarefa 5 — Documentação Técnica (MAN)
