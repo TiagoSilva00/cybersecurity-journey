@@ -13,7 +13,7 @@
 | Acesso Remoto a Máquinas Linux | DIO (Digital Innovation One) | 13/07/2023 | 1h | [Ver certificado](./dio-linux-acesso-remoto.pdf) |
 | Manipulando Arquivos no Linux | DIO (Digital Innovation One) | 17/07/2023 | 3h | [Ver certificado](./dio-linux-manipulando-arquivos.pdf) |
 | Gerenciando Usuários no Linux | DIO (Digital Innovation One) | 20/07/2023 | 2h | [Ver certificado](./dio-linux-gerenciando-usuarios.pdf) |
-| Google IT Support Professional Certificate - Fundamentos do Suporte Técnico | Google / Coursera | 04/08/2023 |24h| [Ver certificado](./google-fundamentos-suporte-tecnico.pdf) |
+| Google IT Support Professional Certificate - Fundamentos do Suporte Técnico | Google / Coursera | 04/08/2023 | 24h | [Ver certificado](./google-fundamentos-suporte-tecnico.pdf) |
 | Certificação ITIL | _(preencher instituição)_ | _(preencher data)_ | — | _(adicionar link)_ |
 
 ---
