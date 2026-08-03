@@ -40,6 +40,8 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | Trojan | Malware disfarçado de programa legítimo para enganar a vítima |
 | Infostealer | Tipo de malware focado em roubar credenciais e dados sensíveis |
 | Community Score | Pontuação de reputação de um arquivo/URL no VirusTotal, baseada no consenso de detecções |
+| Static Analysis | Análise Estática — inspeção de um malware sem executá-lo (código, strings, hashes) |
+| Dynamic Analysis | Análise Dinâmica — observação do comportamento de um malware durante sua execução, geralmente em sandbox |
 
 ## 🛡️ Vulnerabilidades & CVE
 
@@ -59,18 +61,30 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | Patch | Correção de software aplicada para eliminar uma vulnerabilidade |
 | Advisory | Comunicado oficial de um fornecedor sobre uma vulnerabilidade e sua correção |
 
+## 🚨 Resposta a Incidentes
+
+| Termo (EN) | Tradução/Significado |
+|---|---|
+| Incident Response | Resposta a Incidentes — processo estruturado para lidar com um incidente de segurança |
+| Preparation | Preparação — 1ª fase da resposta a incidentes: ferramentas, políticas e treinamento definidos antes de qualquer incidente ocorrer |
+| Detection and Analysis | Detecção e Análise — 2ª fase: identificar que um incidente está ocorrendo e entender sua natureza |
+| Containment, Eradication and Recovery | Contenção, Erradicação e Recuperação — 3ª fase: conter o dano, eliminar a causa raiz e restaurar sistemas afetados |
+| Post-Incident Activity | Atividades Pós-Incidente — 4ª fase: documentação de lições aprendidas e melhorias no processo |
+
 ## 📚 Documentação Técnica
 
 | Termo (EN) | Tradução/Significado |
 |---|---|
 | Man Page (Manual Page) | Documentação oficial de um comando/ferramenta, acessível via `man <comando>` no Linux |
 | Synopsis | Seção de uma man page que mostra a sintaxe completa de uso de um comando |
+| Terminal | Interface baseada em texto que permite ao usuário interagir com o sistema operacional via comandos |
 
 ## 🛠️ Ferramentas
 
 | Termo (EN) | Tradução/Significado |
 |---|---|
 | dirb | Ferramenta que descobre páginas ocultas em sites |
+| Gobuster | Ferramenta de enumeração de diretórios e arquivos ocultos em aplicações web via brute-force |
 | nc (netcat) | Ferramenta de linha de comando para conexões TCP/UDP arbitrárias, port scanning e transferência de dados |
 | GitHub | Plataforma de hospedagem de código, usada também como fonte de PoCs e pesquisas de segurança |
 
@@ -81,3 +95,4 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | Flag | "Bandeira" — código que comprova que você completou um desafio |
 | Room (TryHackMe) | Sala — módulo de aprendizado sobre um tema específico |
 | Path (TryHackMe) | Trilha — sequência de salas organizadas por tema |
+| Admin Panel | Painel Administrativo — página de gerenciamento de uma aplicação web, geralmente oculta e não indexada publicamente |
