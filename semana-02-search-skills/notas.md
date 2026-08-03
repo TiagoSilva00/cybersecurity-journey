@@ -122,3 +122,5 @@ Room **"Habilidades de Busca" (Search Skills)** finalizado com sucesso — trilh
 - Consulta e interpretação de bases de vulnerabilidades (CVE/NVD) e pontuação de risco (CVSS)
 - Uso de documentação técnica oficial (Linux Man Pages)
 - Pesquisa de Threat Intelligence e PoCs no GitHub
+- ![Room Search Skills concluído](./imagens/search-skills-room-concluido.png)
+*Confirmação oficial de conclusão do room "Habilidades de Busca" (Search Skills) na plataforma TryHackMe: 6 tarefas completadas, 40 pontos conquistados e streak de 3 dias consecutivos de estudo.*
