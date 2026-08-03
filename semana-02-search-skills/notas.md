@@ -91,8 +91,34 @@ Desenvolver habilidades de busca e reconhecimento (OSINT) essenciais em ciberseg
 ![Execução prática de man nc](./imagens/search-skills-tarefa05-man-nc-output.png)
 *Execução do comando `man nc` em ambiente prático simulado, exibindo a estrutura padrão de uma man page do Linux: seção NAME (identificação da ferramenta netcat), SYNOPSIS (sintaxe completa com flags disponíveis) e DESCRIPTION (funcionalidades como conexões TCP/UDP e port scanning).*
 
+## Tarefa 6 — GitHub
+
+**O que foi praticado:**
+- Uso do GitHub como fonte de inteligência de ameaças (Threat Intelligence) — busca por repositórios contendo Proof-of-Concept (PoC), exploits e análises técnicas de vulnerabilidades publicadas pela comunidade de pesquisadores de segurança
+- Pesquisa direta por identificador CVE (`CVE-2026-1337`) na busca do GitHub, revelando um repositório dedicado à vulnerabilidade
+- Leitura crítica do README.md de um repositório de pesquisa de segurança, extraindo informações estruturadas: CVE ID, CVSS Score, CWE, descrição técnica da falha, versões afetadas e parâmetro vulnerável
+- Identificação do script de Proof-of-Concept (`exploit.py`) dentro da estrutura do repositório, através do histórico de commits
+- Reforço da postura crítica de segurança: nem todo PoC publicado é confiável — repositórios podem estar incompletos, desatualizados ou até maliciosos
+
+**Conceito-chave:** O GitHub funciona como uma fonte valiosa e ágil de Threat Intelligence, frequentemente mais rápida que canais oficiais para divulgação de PoCs e ferramentas de exploração. Saber pesquisar, ler criticamente um README técnico e identificar o script relevante é uma habilidade essencial de OSINT aplicada à cibersegurança — mas deve sempre vir acompanhada de ceticismo saudável quanto à confiabilidade da fonte.
+
+**Evidência:**
+
+![Introdução ao GitHub como fonte de Threat Intel](./imagens/search-skills-tarefa06-github-intro.png)
+*Introdução ao uso do GitHub como fonte de Threat Intelligence, destacando a publicação ágil de PoCs, ferramentas de exploração e análises técnicas por pesquisadores de segurança, e a importância de verificar a confiabilidade de repositórios antes de executar qualquer código.*
+
+![Análise de repositório PoC no GitHub](./imagens/search-skills-tarefa06-github-repo-exploit.png)
+*Análise do repositório `sec-research/CVE-2026-1337-apache-webportal-sqli` no GitHub, contendo documentação técnica da vulnerabilidade (SQL Injection crítica no Apache WebPortal, CVSS 10.0) e identificação do script `exploit.py` como a Proof-of-Concept da falha, através da leitura do README e do histórico de commits.*
+
 ---
 
-## Próximas tarefas (em andamento)
-- [ ] Tarefa 6 — GitHub
+## ✅ Room concluído
 
+Room **"Habilidades de Busca" (Search Skills)** finalizado com sucesso — trilha Cyber Security 101, TryHackMe.
+
+**Resumo de habilidades desenvolvidas na Semana 02:**
+- Reconhecimento de infraestrutura exposta (Shodan)
+- Análise de arquivos maliciosos e triagem via consenso de antivírus (VirusTotal)
+- Consulta e interpretação de bases de vulnerabilidades (CVE/NVD) e pontuação de risco (CVSS)
+- Uso de documentação técnica oficial (Linux Man Pages)
+- Pesquisa de Threat Intelligence e PoCs no GitHub
