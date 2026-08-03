@@ -124,3 +124,38 @@ Room **"Habilidades de Busca" (Search Skills)** finalizado com sucesso — trilh
 - Pesquisa de Threat Intelligence e PoCs no GitHub
 - ![Room Search Skills concluído](./imagens/search-skills-room-concluido.png)
 *Confirmação oficial de conclusão do room "Habilidades de Busca" (Search Skills) na plataforma TryHackMe: 6 tarefas completadas, 40 pontos conquistados e streak de 3 dias consecutivos de estudo.*
+
+---
+
+## 🔁 Recap de Transição de Tópicos
+
+Ao concluir o room "Search Skills", o TryHackMe apresentou um **Recap** (revisão rápida) com perguntas de reforço, cobrindo os principais conceitos praticados antes de avançar para o próximo módulo (Linux Fundamentals).
+
+**O que foi reforçado:**
+- **Reconhecimento web:** ordem lógica para descobrir uma página administrativa oculta — identificar o alvo, usar o **Gobuster** (ferramenta de enumeração de diretórios via brute-force) para encontrar caminhos ocultos, acessar a página descoberta e só então explorar suas funcionalidades
+- **Mecanismos de busca especializados:** confirmação de que ferramentas como Shodan, VirusTotal e NVD são projetadas para encontrar tipos específicos de informação, diferente de um buscador genérico
+- **Resposta a incidentes (Incident Response):** ordem correta das fases do ciclo de resposta — Preparação → Detecção e Análise → Contenção/Erradicação/Recuperação → Atividades Pós-Incidente
+- **Conceito de terminal:** confirmação de que um terminal é uma interface baseada em texto para interação com o sistema via comandos
+- **Análise de malware:** diferenciação entre análise estática (inspeção de código sem executar o malware) e análise dinâmica (observação de comportamento durante execução)
+
+**Conceito-chave:** Esse recap reforça uma habilidade transversal em cibersegurança — a capacidade de sequenciar processos corretamente (seja em reconhecimento web, seja em resposta a incidentes), já que a ordem das etapas impacta diretamente a eficácia e legalidade de uma ação de segurança.
+
+**Evidência:**
+
+![Reordenar passos - Gobuster](./imagens/search-skills-recap-01-gobuster-steps.png)
+*Exercício de reordenação lógica dos passos para descoberta de uma página administrativa oculta em aplicação web, utilizando a ferramenta Gobuster para enumeração de diretórios.*
+
+![Motores de busca especializados](./imagens/search-skills-recap-02-motores-especializados.png)
+*Confirmação do conceito de que mecanismos de busca especializados (como Shodan, VirusTotal e NVD) são projetados para localizar tipos específicos de informações ou recursos.*
+
+![Fases de resposta a incidentes](./imagens/search-skills-recap-03-fases-incidente.png)
+*Exercício de reordenação das fases do ciclo de resposta a incidentes: Preparação, Detecção e Análise, Contenção/Erradicação/Recuperação, e Atividades Pós-Incidente.*
+
+![Conceito de terminal](./imagens/search-skills-recap-04-terminal-conceito.png)
+*Confirmação do conceito fundamental de terminal como interface baseada em texto para execução de comandos, servindo de ponte para o próximo módulo de estudos (Linux Fundamentals).*
+
+![Análise estática de malware](./imagens/search-skills-recap-05-analise-estatica.png)
+*Reforço da diferenciação entre análise estática (inspeção de malware sem execução) e análise dinâmica (observação de comportamento durante execução).*
+
+![Recap concluído](./imagens/search-skills-recap-06-concluido.png)
+*Conclusão do Recap de Transição de Tópicos, encerrando oficialmente o ciclo de estudos do room "Search Skills" antes da progressão para o módulo Linux Fundamentals.*
