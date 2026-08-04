@@ -10,6 +10,24 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | Port | Porta — identifica um serviço específico dentro de um dispositivo |
 | Handshake | "Aperto de mão" — processo de estabelecer conexão (ex: TCP) |
 
+## 💻 Terminal Linux — Comandos e Operadores
+
+| Termo (EN) | Tradução/Significado |
+|---|---|
+| pwd | Print Working Directory — mostra o diretório atual |
+| ls | List — lista o conteúdo de um diretório |
+| cd | Change Directory — muda de diretório |
+| cat | Concatenate — exibe o conteúdo de um arquivo |
+| mkdir | Make Directory — cria um novo diretório |
+| touch | Cria um arquivo vazio |
+| cp | Copy — copia arquivos/pastas |
+| mv | Move — move ou renomeia arquivos/pastas |
+| rm | Remove — remove arquivos/pastas |
+| > (redirect) | Redireciona a saída de um comando, sobrescrevendo um arquivo |
+| >> (append) | Redireciona a saída de um comando, adicionando ao final de um arquivo |
+| & | Executa um comando em segundo plano (background) |
+| && | Executa o próximo comando somente após o sucesso do anterior |
+
 ## 🔴 Segurança Ofensiva / Defensiva
 
 | Termo (EN) | Tradução/Significado |
@@ -87,6 +105,7 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | Gobuster | Ferramenta de enumeração de diretórios e arquivos ocultos em aplicações web via brute-force |
 | nc (netcat) | Ferramenta de linha de comando para conexões TCP/UDP arbitrárias, port scanning e transferência de dados |
 | GitHub | Plataforma de hospedagem de código, usada também como fonte de PoCs e pesquisas de segurança |
+| grep | Comando de busca de padrões de texto dentro de arquivos, essencial para análise de logs |
 
 ## 📌 Termos gerais
 
