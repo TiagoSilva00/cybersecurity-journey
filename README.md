@@ -16,7 +16,7 @@ fundamentos de redes, Linux, Active Directory, SIEM e laboratórios hands-on via
 | Semana | Tema | Status |
 |--------|------|--------|
 | [Semana 00](./semana-00-setup) | Setup do ambiente (GitHub, TryHackMe, VirtualBox, Kali Linux) | ✅ Concluído |
-| [Semana 01](./semana-01-networking-linux/notas.md) | Networking Fundamentals & Linux Commands | 🔄 Em andamento |
+| [Semana 01](./semana-01-networking-linux/notas.md) | Networking Fundamentals & Linux Commands | ✅ Concluído |
 | [Semana 02](./semana-02-search-skills/notas.md) | Search Skills & OSINT (Shodan, VirusTotal, CVE, Man Pages, GitHub) | ✅ Concluído |
 
 ## 📖 Recursos
