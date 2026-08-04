@@ -8,7 +8,7 @@ Entender os conceitos básicos de redes de computadores e praticar comandos esse
 - [x] Completar sala "Intro to Networking" (ou similar) no TryHackMe
 - [x] Completar sala "Linux Fundamentals" no TryHackMe
 - [x] Anotar conceitos-chave (IP, portas, protocolos)
-- [ ] Praticar comandos Linux no terminal
+- [x] Praticar comandos Linux no terminal
 
 ## Conceitos aprendidos
 
@@ -68,25 +68,58 @@ Protocolos são as "regras" que definem como os dados trafegam pela rede.
 | Conexão | Orientado à conexão | Sem conexão |
 | Exemplo de uso | HTTP, HTTPS, FTP | Streaming, jogos online |
 
-## Comandos estudados (a praticar)
+## 🖥️ Comandos praticados (Linux Fundamentals Part 1 — TryHackMe)
 
-### Navegação e arquivos
+### Comandos básicos: whoami e echo
+- `whoami` — identifica o usuário logado no sistema
+- `echo "texto"` — exibe texto na tela, base para scripts e automações
 
-| Comando | Função |
-|---------|--------|
-| `pwd` | Mostra o diretório (pasta) atual |
-| `ls` | Lista arquivos e pastas do diretório atual |
-| `ls -la` | Lista incluindo arquivos ocultos e detalhes (permissões, tamanho, data) |
-| `cd nome_pasta` | Entra em uma pasta |
-| `cd ..` | Volta um nível na hierarquia de pastas |
-| `mkdir nome_pasta` | Cria uma nova pasta |
-| `touch arquivo.txt` | Cria um arquivo vazio |
-| `cat arquivo.txt` | Mostra o conteúdo de um arquivo |
-| `rm arquivo.txt` | Remove um arquivo |
-| `cp origem destino` | Copia um arquivo |
-| `mv origem destino` | Move ou renomeia um arquivo |
+![Whoami e Echo](./imagens/linux-fundamentals-03-whoami-echo.png)
+*Prática dos comandos `whoami` (identificação do usuário logado) e `echo` (exibição de texto), fundamentos usados constantemente em scripts e automações de segurança.*
+
+### Navegação de diretórios: pwd, ls, cd, cat
+- `pwd` — mostra o diretório atual
+- `ls` — lista o conteúdo do diretório
+- `cd` — muda de diretório (`cd ..` sobe um nível; `cd` sozinho volta para home)
+- `cat` — exibe o conteúdo de um arquivo
+
+![Introdução aos comandos de navegação](./imagens/linux-fundamentals-04-comandos-navegacao-intro.png)
+*Tabela introdutória dos 4 comandos essenciais de navegação no terminal Linux.*
+
+![Primeira listagem de diretórios](./imagens/linux-fundamentals-05-ls-primeiro-resultado.png)
+*Primeira execução do comando `ls`, revelando a estrutura de pastas do ambiente de laboratório.*
+
+![Descoberta de senha via cat](./imagens/linux-fundamentals-06-cat-passwords-descoberta.png)
+*Navegação até a pasta `folder1` e leitura do arquivo `passwords.txt` com o comando `cat`, revelando o conteúdo `password123`.*
+
+![Navegação entre pastas e retorno ao home](./imagens/linux-fundamentals-07-navegacao-pastas-cd-home.png)
+*Exploração das pastas folder1 a folder4, incluindo o aprendizado prático da sintaxe correta do comando `cd ..` (dois pontos) para retornar ao diretório pai, e do uso de `cd` sem argumentos para retornar diretamente ao diretório pessoal (home).*
+
+### Busca de conteúdo com grep
+- `grep "padrão" arquivo` — busca um padrão de texto dentro de um arquivo
+
+![Descoberta de flag via grep](./imagens/linux-fundamentals-08-grep-flag-descoberta.png)
+*Uso do comando `grep` para buscar o padrão de texto "THM" dentro do arquivo de log `access.log`, revelando a flag `THM{ACCESS}` — prática direta de análise de logs, técnica central em investigações de segurança.*
+
+### Redirecionadores de saída: > e >>
+- `>` — sobrescreve o conteúdo de um arquivo
+- `>>` — adiciona conteúdo ao final do arquivo, preservando o que já existia
+
+![Redirecionadores de saída](./imagens/linux-fundamentals-09-redirecionadores-echo.png)
+*Demonstração prática da diferença entre os operadores de redirecionamento `>` (sobrescreve o arquivo) e `>>` (adiciona ao final, preservando conteúdo existente) — confirmado pela duplicação do texto "TryHackMe" no arquivo `thm` após o uso do `>>`.*
+
+### Operadores de controle: & e &&
+- `&` — executa um comando em segundo plano (background)
+- `&&` — executa o segundo comando somente após o sucesso do primeiro
 
 ---
+
+## ✅ Room concluída
+
+Room **"Linux Fundamentals Part 1"** finalizada com sucesso — 5 tarefas completadas, 64 pontos, streak de 5 dias.
+
+![Room Linux Fundamentals concluído](./imagens/linux-fundamentals-10-room-concluido.png)
+*Confirmação oficial de conclusão da room "Linux Fundamentals Part 1" no TryHackMe: 5 tarefas completadas, 64 pontos conquistados e streak de 5 dias consecutivos de estudo.*
 
 ### Rede e diagnóstico
 
