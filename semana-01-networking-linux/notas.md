@@ -112,6 +112,40 @@ Protocolos são as "regras" que definem como os dados trafegam pela rede.
 - `&` — executa um comando em segundo plano (background)
 - `&&` — executa o segundo comando somente após o sucesso do primeiro
 
+## Comandos praticados
+
+Comandos de terminal Linux são a base de qualquer trabalho técnico em cibersegurança. Grande parte das ferramentas de análise, SIEMs, scripts de automação e distribuições ofensivas/defensivas (Kali, Wazuh, etc.) rodam sobre ambientes Linux e são operadas via linha de comando. Para um analista iniciante, dominar navegação e manipulação de arquivos não é opcional: é o que permite investigar logs, preservar evidências, automatizar tarefas repetitivas e entender o comportamento de invasores que também usam esses mesmos comandos.
+
+Nesta etapa, pratiquei os seguintes comandos de navegação e manipulação de arquivos: `pwd`, `ls`, `ls -la`, `cd`, `mkdir`, `touch`, `cat`, `cp`, `mv`, `rm` e `echo` (com redirecionamento de saída).
+
+- [x] Praticar comandos Linux de navegação e manipulação de arquivos
+
+### Evidências da prática
+
+![Navegação inicial](./imagens/01-linux-navegacao-inicial.png)
+*Verificação inicial da estrutura de diretórios do usuário com `cd` (retorno à home) e `ls -la`, exibindo permissões, proprietário e arquivos ocultos (`.bash_history`, `.profile`, etc.). Praticar a leitura de metadados de arquivos é essencial para um analista de cibersegurança, pois artefatos e configurações maliciosas frequentemente residem em arquivos ocultos ou dependem de permissões mal configuradas.*
+
+![Criação de diretório](./imagens/02-linux-mkdir.png)
+*Criação do diretório `pratica-linux` com `mkdir`, confirmada com `ls`. Organização de diretórios é uma habilidade básica, mas fundamental para estruturar ambientes de teste, laboratórios e evidências durante investigações.*
+
+![Navegação e criação de arquivo](./imagens/03-linux-cd-touch-lsla.png)
+*Navegação até o novo diretório com `cd pratica-linux`, criação de arquivo vazio com `touch arquivo1.txt` e verificação com `ls -la`. O comando `touch` é amplamente usado para criar arquivos de teste e também aparece em técnicas de timestomping (manipulação de metadados de tempo), tema relevante em forense digital.*
+
+![Escrita e leitura de arquivo](./imagens/04-linux-echo-cat.png)
+*Uso de `echo` com redirecionamento (`>`) para escrever conteúdo em `arquivo1.txt`, seguido de `cat` para exibir o conteúdo. Redirecionamento de saída é a base para geração e manipulação de logs — competência essencial para quem pretende atuar com SIEM (Splunk, Wazuh) e análise de log em SOC.*
+
+![Cópia de arquivo](./imagens/05-linux-cp.png)
+*Cópia de arquivo com `cp arquivo1.txt arquivo2.txt`, validada com `ls -la`. Cópia de arquivos é rotina em coleta e preservação de evidências (cadeia de custódia), garantindo que o original não seja alterado durante a análise.*
+
+![Renomeação de arquivo](./imagens/06-linux-mv.png)
+*Renomeação/movimentação de arquivo com `mv arquivo2.txt arquivo-renomeado.txt`, confirmada com `ls -la`. Entender `mv` é importante para reconhecer também técnicas de evasão, já que atacantes frequentemente renomeiam arquivos maliciosos para mascarar sua real função.*
+
+![Remoção de arquivo](./imagens/07-linux-rm.png)
+*Remoção de arquivo com `rm arquivo-renomeado.txt`, confirmada com `ls -la`. Além da gestão de arquivos, compreender `rm` ajuda o analista a reconhecer indícios de anti-forense, como tentativas de exclusão de evidências por invasores.*
+
+![Verificação final](./imagens/08-linux-pwd-verificacao-final.png)
+*Verificação final do diretório de trabalho com `pwd`, listagem completa com `ls -la` e leitura de conteúdo com `cat arquivo1.txt`. Fecha o ciclo de prática confirmando domínio da navegação e manipulação básica do sistema de arquivos Linux — pré-requisito indispensável para qualquer atividade prática em SOC, pentest ou administração de sistemas.*
+
 ---
 
 ## ✅ Room concluída
