@@ -16,6 +16,7 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 |---|---|
 | pwd | Print Working Directory — mostra o diretório atual |
 | ls | List — lista o conteúdo de um diretório |
+| ls -la | Listar detalhado (com ocultos) — exibe todos os arquivos, incluindo ocultos, com permissões, dono e data |
 | cd | Change Directory — muda de diretório |
 | cat | Concatenate — exibe o conteúdo de um arquivo |
 | mkdir | Make Directory — cria um novo diretório |
@@ -27,6 +28,16 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | >> (append) | Redireciona a saída de um comando, adicionando ao final de um arquivo |
 | & | Executa um comando em segundo plano (background) |
 | && | Executa o próximo comando somente após o sucesso do anterior |
+| cd (change directory) | Mudar diretório — navega entre pastas do sistema |
+| mkdir (make directory) | Criar diretório — cria uma nova pasta |
+| touch | Criar arquivo vazio — cria um arquivo vazio ou atualiza seu timestamp |
+| cat (concatenate) | Exibir conteúdo — mostra o conteúdo de um arquivo de texto no terminal |
+| cp (copy) | Copiar — copia arquivos/diretórios mantendo o original |
+| mv (move) | Mover/Renomear — move ou renomeia arquivos/diretórios |
+| rm (remove) | Remover — exclui arquivos ou diretórios |
+| echo | Exibir texto / redirecionar saída — exibe texto; com `>` grava a saída em um arquivo |
+| redirection (>) | Redirecionamento de saída — envia a saída de um comando para um arquivo, sobrescrevendo o conteúdo |
+| permissions (rwx) | Permissões — controlam quem pode ler, escrever ou executar um arquivo/diretório |
 
 ## 🔴 Segurança Ofensiva / Defensiva
 
