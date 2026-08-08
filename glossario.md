@@ -24,19 +24,11 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | cp | Copy — copia arquivos/pastas |
 | mv | Move — move ou renomeia arquivos/pastas |
 | rm | Remove — remove arquivos/pastas |
+| echo | Exibir texto / redirecionar saída – exibe texto; com `>` grava a saída em um arquivo |
 | > (redirect) | Redireciona a saída de um comando, sobrescrevendo um arquivo |
 | >> (append) | Redireciona a saída de um comando, adicionando ao final de um arquivo |
 | & | Executa um comando em segundo plano (background) |
 | && | Executa o próximo comando somente após o sucesso do anterior |
-| cd (change directory) | Mudar diretório — navega entre pastas do sistema |
-| mkdir (make directory) | Criar diretório — cria uma nova pasta |
-| touch | Criar arquivo vazio — cria um arquivo vazio ou atualiza seu timestamp |
-| cat (concatenate) | Exibir conteúdo — mostra o conteúdo de um arquivo de texto no terminal |
-| cp (copy) | Copiar — copia arquivos/diretórios mantendo o original |
-| mv (move) | Mover/Renomear — move ou renomeia arquivos/diretórios |
-| rm (remove) | Remover — exclui arquivos ou diretórios |
-| echo | Exibir texto / redirecionar saída — exibe texto; com `>` grava a saída em um arquivo |
-| redirection (>) | Redirecionamento de saída — envia a saída de um comando para um arquivo, sobrescrevendo o conteúdo |
 | permissions (rwx) | Permissões — controlam quem pode ler, escrever ou executar um arquivo/diretório |
 
 ## 🔴 Segurança Ofensiva / Defensiva
