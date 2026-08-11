@@ -141,3 +141,35 @@ Segurança não é só técnica — envolve **governança, risco e conformidade 
 ---
 
 ## 🗺️ Visão geral — como as perguntas se conectam
+
+```mermaid
+flowchart TD
+    subgraph Row1[ ]
+        direction LR
+        A[Ativos] --> B[Riscos] --> C[Tríade CIA] --> D[IAM e MFA]
+    end
+    subgraph Row2[ ]
+        direction LR
+        E[Redes e comunicação] --> F[Como ataques acontecem]
+    end
+    subgraph Row3[ ]
+        direction LR
+        G[Detecção SOC] --> H[Incident response] --> I[Backup e DR]
+    end
+    J[Responsabilidades legais LGPD]
+
+    Row1 --> Row2
+    Row2 --> Row3
+    Row3 --> J
+
+    style A fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+    style B fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+    style C fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+    style D fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+    style E fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+    style F fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+    style G fill:#FAECE7,stroke:#993C1D,color:#4A1B0C
+    style H fill:#FAECE7,stroke:#993C1D,color:#4A1B0C
+    style I fill:#FAECE7,stroke:#993C1D,color:#4A1B0C
+    style J fill:#EEEDFE,stroke:#534AB7,color:#26215C
+```
