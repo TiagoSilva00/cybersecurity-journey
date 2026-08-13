@@ -20,6 +20,10 @@
 | Windows Server 2022 + AZ-104 + AZ-900 + cursos brindes | Udemy | 03/06/2022 | 22h | Suporte Técnico, Cybersecurity | [Ver certificado](./udemy-windows-server-az104-az900.jpg) |
 | Primeiros Passos com Zabbix | GINEAD - Instituto Nacional de Ensino a Distância | 20/06/2022 | 60h | Suporte Técnico, Cybersecurity | [Ver certificado](./ginead-primeiros-passos-zabbix.pdf) |
 
+## 🏦 Bootcamp Santander (via DIO)
+
+| Introdução ao Linux com o Santander | DIO (Digital Innovation One) / Santander | 12/08/2026 | 1h | Cybersecurity, Suporte Técnico | [Ver certificado](./certificado-dio-santander-introducao-linux.png) |
+|---|---|---|---|---|---|
 ---
 
-📌 **Observação:** os arquivos originais dos certificados (PDF/JPG) ficam salvos nesta mesma pasta (`certificados/`).
+📌 **Observação:** os arquivos originais dos certificados (PDF/JPG) ficam salvos nesta mesma pasta [`certificados/`](./)
