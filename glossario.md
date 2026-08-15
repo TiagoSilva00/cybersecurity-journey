@@ -1,4 +1,4 @@
-# 📖 Glossário de Ciberseguranç
+# 📖 Glossário de Cibersegurança
 
 Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jornada. Organizado por categoria para facilitar consulta.
 
