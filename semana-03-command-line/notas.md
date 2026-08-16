@@ -76,7 +76,18 @@ Analistas de segurança usam a linha de comando constantemente para:
 
 ## Prática — TryHackMe
 
-*(seção a preencher após a conclusão da sala, com screenshots e reflexões)*
+### Sala: Windows Command Line
+
+#### Task 1 — Introdução: conectando à máquina Windows via SSH
+
+Para acessar a máquina-alvo Windows, foi utilizado o cliente SSH disponível na AttackBox, através do comando:
+
+Durante o processo, a conexão inicial foi interrompida (`Connection reset`) e duas tentativas de senha foram rejeitadas antes da autenticação correta. Após ajuste, a conexão foi estabelecida com sucesso, dando acesso ao Command Prompt (`cmd.exe`) da máquina `WINSRV2022-CORE`.
+
+![Conexão SSH estabelecida](imagens/01-ssh-conexao-windows-target.png)
+
+**Pergunta da Task:** Qual é o interpretador de linha de comando padrão no ambiente Windows?
+**Resposta:** `cmd.exe`
 
 ---
 
