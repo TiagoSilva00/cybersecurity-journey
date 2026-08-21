@@ -129,6 +129,12 @@ Vocabulário técnico (inglês/português) que venho aprendendo ao longo da jorn
 | SIEM (Security Information and Event Management) | Ferramenta que coleta e correlaciona logs de várias fontes para gerar alertas |
 | False Positive | Falso Positivo — um alerta que parecia malicioso, mas não era |
 | Log | Registro histórico de eventos em um sistema |
+| N1 (Nível 1) | Primeira linha de atuação em um SOC; responsável pela triagem inicial e produção de evidência antes de decidir se escala |
+| Fluxo operacional | Sequência estruturada de etapas (detecção → análise → decisão → escalonamento) que sustenta a operação contínua do SOC |
+| Evidência | Registro técnico (log, print, dado coletado) que comprova e sustenta a análise feita sobre um evento de segurança |
+| Escalonamento | Ato de encaminhar um caso do N1 para N2/N3 quando ele ultrapassa o escopo ou a alçada de decisão do analista |
+| Caso ativo | Registro de um incidente/evento em andamento sendo tratado dentro do fluxo do SOC |
+| Triagem | Avaliação inicial de um alerta para definir prioridade e próximo passo |
 
 ## 🚨 Resposta a Incidentes
 
