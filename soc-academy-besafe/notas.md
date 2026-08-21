@@ -45,17 +45,12 @@ Ou seja: o SOC é a estrutura que transforma esse excesso de dados em decisão c
 
 ### 💻 Console SOC / CLI obrigatória
 
-<details>
-<summary><strong>💻 Ver simulação do terminal (soc-console.besafe.inc)</strong></summary>
-<br>
+**Terminal:** `soc-console.besafe.inc`
 
-​<details>
-<summary><strong>💻 Ver simulação do terminal (soc-console.besafe.inc)</strong></summary>
-<br>
+> Regra do console: o validador registra comandos aceitos. Comando incorreto também responde — simulando o comportamento de uma ferramenta real, que raramente "segura a mão" do analista.
 
-```text
+​```text
 Be Safe .Inc SOC Console v2.0
 Caso ativo: SOC0 · O que é SOC e por que ele existe
 Digite 'help' ou execute os comandos obrigatórios do checklist.
-```
-</details>
+​```
