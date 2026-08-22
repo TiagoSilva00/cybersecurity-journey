@@ -33,5 +33,6 @@
 | Live de Abertura Aceleração Randstad Service Desk | DIO.pro | 17/08/2026 | 1h | Suporte Técnico | [Ver certificado](./live-abertura-aceleracao-randstad.png) |
 | Service Desk: do Suporte Reativo ao Atendimento Estratégico | DIO.pro | 19/08/2026 | 1h | Suporte Técnico | [Ver certificado](./service-desk-reativo-estrategico.png) |
 | Comandos Essenciais de CMD na Prática | DIO.pro | 19/08/2026 | 1h | Suporte Técnico, Cybersecurity | [Ver certificado](./comandos-essenciais-cmd-pratica.png) |
+| Introdução a Redes | DIO.pro | 21/08/2026 | 1h | Cybersecurity, Suporte Técnico | [Ver certificado](./introducao-a-redes.png) |
 
 📌 **Observação:** os arquivos originais dos certificados (PDF/JPG) ficam salvos nesta mesma pasta [`certificados/`](./)
